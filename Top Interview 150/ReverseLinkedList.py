@@ -22,4 +22,3 @@ class Solution(object):
                 prevNode = tempNode
 
             return prevNode
-    
