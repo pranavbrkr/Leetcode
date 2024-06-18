@@ -7,28 +7,19 @@ class Solution(object):
         :rtype: List[int]
         """
 
-        product = 1
-        zero_freq = 0
-
-        for num in nums:
-            if num == 0:
-                zero_freq += 1
-                continue
-            else:
-                product *= num
+        prefix = 1
 
         answer = []
+        n = len(nums)
 
-        for num in nums:
-            if num == 0:
-                if zero_freq > 1:
-                    answer.append(0)
-                else:
-                    answer.append(product)
-            else:
-                if zero_freq:
-                    answer.append(0)
-                else:
-                    answer.append(product // num)
+        for i in range(n):
+            answer.append(prefix)
+            prefix = prefix * nums[i]
+
+        postfix = 1
+
+        for i in range(n - 1, -1, -1):
+            answer[i] = answer[i]  * postfix
+            postfix = postfix * nums[i]
 
         return answer
