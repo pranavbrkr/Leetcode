@@ -6,31 +6,16 @@ class Solution:
         answer = []
         
         n = len(intervals)
-        i = 0
 
-        while i < n:
-            if newInterval[0] < intervals[i][0]:
-                intervals.insert(i, newInterval)
-                break
+        for i in range(n):
+            if newInterval[1] < intervals[i][0]:
+                answer.append(newInterval)
+                return answer + intervals[i:]
+            elif newInterval[0] > intervals[i][1]:
+                answer.append(intervals[i])
             else:
-                i += 1
+                newInterval = [min(newInterval[0], intervals[i][0]), max(newInterval[1], intervals[i][1])]
 
-        if n == len(intervals):
-            intervals.append(newInterval)
-
-
-        answer = []
-        i = 0
-
-        for interval in intervals:
-            if not len(answer):
-                answer.append(interval)
-                continue
-
-            if interval[0] <= answer[i][1]:
-                answer[i][1] = max(answer[i][1], interval[1])
-            else:
-                answer.append(interval)
-                i += 1
+        answer.append(newInterval)
 
         return answer
