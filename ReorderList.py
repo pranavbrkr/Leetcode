@@ -14,34 +14,38 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        node_list = deque([])
+        # Use fast and slow pointer to find the middle of the list
+        slow, fast = head, head.next
 
-        if head.next == None:
-            return head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-        # Add all the nodes to a deque
+        list2 = slow.next
+        slow.next = None
+
+        # Reverse the second list
+        curr = list2
+        prev = None
+
+        while curr:
+            temp = curr
+            curr = curr.next
+            temp.next = prev
+            prev = temp
+        
+        list2 = prev
+
+        # Now merge the nodes alternatively
+        prev2 = None
+        curr2 = list2
+
+        prev = None
         curr = head
-        while head != None:
-            head = curr.next
-            curr.next = None
-            node_list.append(curr)
-            curr = head
-        print(node_list)
-
-        # Pop the front and back elements alternatively and create a list
-        pop_front = True
-        while len(node_list):
-            if pop_front:
-                if not head:
-                    head = node_list.popleft()
-                    curr = head
-                else:
-                    curr.next = node_list.popleft()
-                    curr = curr.next
-            else:
-                curr.next = node_list.pop()
-                curr = curr.next
-            
-            pop_front = not pop_front
-
-        return head
+        while curr2:
+            prev = curr
+            curr = curr.next
+            prev2 = curr2
+            curr2 = curr2.next
+            prev2.next = curr
+            prev.next = prev2
