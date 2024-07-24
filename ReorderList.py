@@ -5,33 +5,43 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+from collections import deque
+
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         """
         Do not return anything, modify head in-place instead.
         """
 
+        node_list = deque([])
+
         if head.next == None:
             return head
 
+        # Add all the nodes to a deque
         curr = head
-        it = curr.next
-        prev = curr
+        while head != None:
+            head = curr.next
+            curr.next = None
+            node_list.append(curr)
+            curr = head
+        print(node_list)
 
-        while it != None and curr != None:
-
-            while it.next != None:
-                prev = it
-                it = it.next
+        # Pop the front and back elements alternatively and create a list
+        pop_front = True
+        while len(node_list):
+            if pop_front:
+                if not head:
+                    head = node_list.popleft()
+                    curr = head
+                else:
+                    curr.next = node_list.popleft()
+                    curr = curr.next
+            else:
+                curr.next = node_list.pop()
+                curr = curr.next
             
-            prev.next = None
-            it.next = curr.next
-            curr.next = it
-
-            curr = it.next
-            if curr == None:
-                break
-            it = curr.next
-            prev = curr
+            pop_front = not pop_front
 
         return head
