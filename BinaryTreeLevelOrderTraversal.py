@@ -17,16 +17,16 @@ class Solution:
 
         while len(currNodes):
             currLevel = []
-            nextLevel = []
+            n = len(currNodes)
 
-            while len(currNodes):
+            while n:
                 ele = currNodes.pop(0)
                 currLevel.append(ele.val)
                 if ele.left:
-                    nextLevel.append(ele.left)
+                    currNodes.append(ele.left)
                 if ele.right:
-                    nextLevel.append(ele.right)
+                    currNodes.append(ele.right)
+                n -= 1
             answer.append(currLevel)
-            currNodes = nextLevel
 
         return answer
