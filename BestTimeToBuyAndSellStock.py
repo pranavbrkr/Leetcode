@@ -6,7 +6,7 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        max_profit = 0;
+        max_profit = 0
         n = len(prices)
         cheapest = prices[0]
 
