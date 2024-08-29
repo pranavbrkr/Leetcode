@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Two Pointers
 |  |
@@ -24,11 +25,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 ## Math
 |  |
 | ------- |
@@ -66,4 +69,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
+## Sorting
+|  |
+| ------- |
+| [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 <!---LeetCode Topics End-->
