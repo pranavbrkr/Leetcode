@@ -8,7 +8,7 @@ class Solution:
             total_hours = 0
 
             for pile in piles:
-                total_hours += math.ceil(pile / k)
+                total_hours += ceil(pile / k)
 
             if total_hours <= h:
                 answer = min(answer, k)
