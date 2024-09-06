@@ -5,17 +5,13 @@
 #         self.next = next
 class Solution:
     def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
-        nums_dict = {}
+        nums_set = set(nums)
 
-        for number in nums:
-            if number not in nums_dict.keys():
-                nums_dict[number] = True
-        
         prev = None
         curr = head
 
         while curr:
-            if curr.val in nums_dict.keys():
+            if curr.val in nums_set:
                 if curr == head:
                     prev = curr
                     curr = curr.next
