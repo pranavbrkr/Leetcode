@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/pranavbrkr/Leetcode/tree/master/0022-generate-parentheses) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -120,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
