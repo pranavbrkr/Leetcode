@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/pranavbrkr/Leetcode/tree/master/0002-add-two-numbers) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Tree
 |  |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/pranavbrkr/Leetcode/tree/master/0002-add-two-numbers) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Bit Manipulation
 |  |
@@ -129,4 +131,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/pranavbrkr/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
