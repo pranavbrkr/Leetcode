@@ -20,10 +20,6 @@ class Solution:
         return 1 + max(left_height, right_height)
 
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-
-        left_height = self.DFS(root.left)
-        right_height = self.DFS(root.right)
-
-        self.result = (left_height + right_height) if (left_height + right_height) > self.result else self.result
+        self.DFS(root)
 
         return self.result
