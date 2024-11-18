@@ -5,22 +5,19 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    answer = 0
-
-    def goodNodesUtil(self, root: TreeNode, greatestValue: int) -> None:
-        if root is None:
-            return
-        if greatestValue <= root.val:
-            self.answer += 1
-            print(f"answer is {self.answer} at {root.val}")
-            self.goodNodesUtil(root.left, root.val)
-            self.goodNodesUtil(root.right, root.val)
-        else:
-            self.goodNodesUtil(root.left, greatestValue)
-            self.goodNodesUtil(root.right, greatestValue)
-
     def goodNodes(self, root: TreeNode) -> int:
-        if root is None:
-            return 0
-        self.goodNodesUtil(root, float('-inf'))
-        return self.answer
+        
+        def goodNodesUtil(node, max_value):
+            if not node:
+                return 0
+            
+            answer = 1 if node.val >= max_value else 0
+            
+            max_value = max(max_value, node.val)
+            
+            answer += goodNodesUtil(node.left, max_value)
+            answer += goodNodesUtil(node.right, max_value)
+            
+            return answer
+        
+        return goodNodesUtil(root, root.val)
