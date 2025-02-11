@@ -27,11 +27,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/pranavbrkr/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/pranavbrkr/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/pranavbrkr/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/pranavbrkr/Leetcode/tree/master/0053-maximum-subarray) |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/pranavbrkr/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/pranavbrkr/Leetcode/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
