@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/pranavbrkr/Leetcode/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/pranavbrkr/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/pranavbrkr/Leetcode/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/pranavbrkr/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/pranavbrkr/Leetcode/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 ## Binary Search
 |  |
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0133-clone-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/pranavbrkr/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
