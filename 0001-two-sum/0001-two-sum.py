@@ -1,22 +1,12 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        mydict = dict()
-        nums_len = len(nums)
-        ret_list = []
-
-        for i in range(nums_len):
-            mydict[nums[i]] = i
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_set = {}
+        n = len(nums)
         
-        for i in range(nums_len):
-            pair_index = mydict.get(target - nums[i])
-            if pair_index is not None and pair_index != i:
-                ret_list.append(i)
-                ret_list.append(pair_index)
-                break
-
-        return ret_list
+        for i, number in enumerate(nums):
+            rem = target - number
+            if rem in num_set:
+                return [i, num_set[rem]]
+            num_set[number] = i
+        
+        return
