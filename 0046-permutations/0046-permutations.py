@@ -1,15 +1,13 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) == 0:
-            return [[]]
+        answer = [[]]
 
-        permutations = self.permute(nums[1:])
-        answer = []
-
-        for perm in permutations:
-            for i in range(len(perm) + 1):
-                perm_copy = perm.copy()
-                perm_copy.insert(i, nums[0])
-                answer.append(perm_copy)
-        
+        for n in nums:
+            new_perm = []
+            for perm in answer:
+                for i in range(len(perm) + 1):
+                    perm_copy = perm.copy()
+                    perm_copy.insert(i, n)
+                    new_perm.append(perm_copy)
+            answer = new_perm
         return answer
