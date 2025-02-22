@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/pranavbrkr/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0036-valid-sudoku](https://github.com/pranavbrkr/Leetcode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/pranavbrkr/Leetcode/tree/master/0046-permutations) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/pranavbrkr/Leetcode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/pranavbrkr/Leetcode/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranavbrkr/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/pranavbrkr/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/pranavbrkr/Leetcode/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/pranavbrkr/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0133-clone-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0133-clone-graph) |
