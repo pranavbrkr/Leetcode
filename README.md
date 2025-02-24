@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0100-same-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0110-balanced-binary-tree) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
+| [0098-validate-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0133-clone-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0133-clone-graph) |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0100-same-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0110-balanced-binary-tree) |
@@ -257,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pranavbrkr/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
