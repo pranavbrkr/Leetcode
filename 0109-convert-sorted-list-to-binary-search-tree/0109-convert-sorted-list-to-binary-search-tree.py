@@ -34,6 +34,5 @@ class Solution:
         middle = self.getMiddle(head)
         root = TreeNode(middle.val)
         root.right = self.sortedListToBST(middle.next)
-        middle.next = None
         root.left = self.sortedListToBST(head)
         return root
