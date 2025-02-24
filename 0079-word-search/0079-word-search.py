@@ -1,22 +1,31 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         m, n = len(board), len(board[0])
-        path = set() 
+        path = set()
+        word_len = len(word)
 
-        def dfs(r, c, index):
-            if index == len(word):
+        def dfs(row, col, index):
+            if index >= word_len:
                 return True
             
-            if r < 0 or c < 0 or r >= m or c >= n or word[index] != board[r][c] or ((r, c) in path):
+            if (row >= m or
+               col >= n or 
+               row < 0 or
+               col < 0 or 
+               board[row][col] != word[index] or 
+               (row, col) in path):
                 return False
             
-            path.add((r, c))
-            res = (dfs(r + 1, c, index + 1) or
-                  dfs(r - 1, c, index + 1) or
-                  dfs(r, c + 1, index + 1) or
-                  dfs(r, c - 1, index + 1))
-            path.remove((r, c))
-            return res
+            path.add((row, col))
+
+            dfs_result = (dfs(row + 1, col, index + 1) or
+                         dfs(row - 1, col, index + 1) or
+                         dfs(row, col + 1, index + 1) or
+                         dfs(row, col - 1, index + 1))
+            
+            path.remove((row, col))
+            
+            return dfs_result
         
         for i in range(m):
             for j in range(n):
