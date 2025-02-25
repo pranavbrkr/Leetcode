@@ -10,24 +10,20 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        depth_map = {}
 
-        if not root:
-            return root
+        def dfs(node, depth):
+            if not node:
+                return
 
-        queue = collections.deque()
-        queue.append(root)
-
-        while queue:
-            queue_len = len(queue)
-
-            for i in range(queue_len):
-                node = queue.popleft()
-                if node:
-                    if i == queue_len - 1:
-                        node.next = None
-                    else:
-                        node.next = queue[0]
-                    queue.append(node.left)
-                    queue.append(node.right)
+            if not depth in depth_map:
+                depth_map[depth] = node
+            else:
+                depth_map[depth].next = node
+                depth_map[depth] = node
+            
+            dfs(node.left, depth + 1)
+            dfs(node.right, depth + 1)
         
+        dfs(root, 0)
         return root
