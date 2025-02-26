@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0133-clone-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/pranavbrkr/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/pranavbrkr/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/pranavbrkr/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Bit Manipulation
 |  |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/pranavbrkr/Leetcode/tree/master/0155-min-stack) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -316,4 +319,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/pranavbrkr/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0210-course-schedule-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
