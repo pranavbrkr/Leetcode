@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0213-house-robber-ii) |
+| [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/pranavbrkr/Leetcode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
+| [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Sorting
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/pranavbrkr/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Prefix Sum
