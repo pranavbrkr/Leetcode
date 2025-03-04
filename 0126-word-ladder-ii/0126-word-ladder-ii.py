@@ -1,6 +1,3 @@
-from collections import defaultdict, deque
-from typing import List
-
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         wordSet = set(wordList)
@@ -13,7 +10,6 @@ class Solution:
                 pattern = word[:j] + "*" + word[j+1:]
                 neighbours[pattern].append(word)
         
-        # BFS to find the shortest path lengths and construct parent tracking
         q = deque()
         q.append(beginWord)
         parent_map = defaultdict(set)
@@ -43,7 +39,6 @@ class Solution:
                 if word == endWord:
                     found = True
                     
-        # Backtracking to find all paths
         res = []
         
         def backtrack(word, path):
