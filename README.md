@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0213-house-robber-ii) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/pranavbrkr/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pranavbrkr/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0261-graph-valid-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/pranavbrkr/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/pranavbrkr/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -219,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/pranavbrkr/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/pranavbrkr/Leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
@@ -388,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/pranavbrkr/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 ## Greedy
 |  |
@@ -400,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/pranavbrkr/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 ## Doubly-Linked List
 |  |
 | ------- |
