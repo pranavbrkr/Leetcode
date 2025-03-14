@@ -3,11 +3,11 @@ class Solution:
         answer = defaultdict(list)
 
         for s in strs:
-            count = [0] * 26
+            counter = [0] * 26
 
-            for c in s:
-                count[ord(c) - ord('a')] += 1
-            
-            answer[tuple(count)].append(s)
+            for char in s:
+                counter[ord(char) - ord('a')] += 1
+
+            answer[tuple(counter)].append(s)
         
         return list(answer.values())
