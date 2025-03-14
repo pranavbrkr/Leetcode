@@ -4,7 +4,7 @@ class Codec:
         """
         res = ""
         for s in strs:
-            res += str(len(s)) + "#"  +s
+            res += str(len(s)) + "#" + s
         return res        
 
     def decode(self, s: str) -> List[str]:
