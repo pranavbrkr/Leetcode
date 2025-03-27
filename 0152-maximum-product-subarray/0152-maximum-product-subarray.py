@@ -9,7 +9,7 @@ class Solution:
                 continue
             
             temp = curr_max * number
-            curr_max = max(temp, curr_min * number, number)
+            curr_max = max(curr_max * number, curr_min * number, number)
             curr_min = min(temp, curr_min * number, number)
             answer = max(answer, curr_max)
         
