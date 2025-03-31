@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/pranavbrkr/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/pranavbrkr/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/pranavbrkr/Leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/pranavbrkr/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/pranavbrkr/Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranavbrkr/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/pranavbrkr/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/pranavbrkr/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/pranavbrkr/Leetcode/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/pranavbrkr/Leetcode/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0273-integer-to-english-words](https://github.com/pranavbrkr/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0371-sum-of-two-integers](https://github.com/pranavbrkr/Leetcode/tree/master/0371-sum-of-two-integers) |
@@ -475,4 +477,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/pranavbrkr/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
