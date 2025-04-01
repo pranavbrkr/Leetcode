@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/pranavbrkr/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/pranavbrkr/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/pranavbrkr/Leetcode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/pranavbrkr/Leetcode/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/pranavbrkr/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/pranavbrkr/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -284,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/pranavbrkr/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/pranavbrkr/Leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/pranavbrkr/Leetcode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/pranavbrkr/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Hash Table
 |  |
@@ -412,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/pranavbrkr/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
@@ -445,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/pranavbrkr/Leetcode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/pranavbrkr/Leetcode/tree/master/0055-jump-game) |
+| [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 ## Topological Sort
