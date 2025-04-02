@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/pranavbrkr/Leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/pranavbrkr/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/pranavbrkr/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/pranavbrkr/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/pranavbrkr/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/pranavbrkr/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0200-number-of-islands) |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/pranavbrkr/Leetcode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/pranavbrkr/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/pranavbrkr/Leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/pranavbrkr/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/pranavbrkr/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0126-word-ladder-ii) |
