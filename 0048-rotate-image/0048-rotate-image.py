@@ -15,5 +15,5 @@ class Solution:
                 matrix[bottom][r - i] = matrix[top + i][r]
                 matrix[top + i][r] = top_left
             
-            r -= 1
             l += 1
+            r -= 1
