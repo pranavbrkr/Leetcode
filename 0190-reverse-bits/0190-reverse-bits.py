@@ -5,5 +5,5 @@ class Solution:
         for i in range(32):
             bit = (n >> i) & 1
             answer = answer | (bit << (31 - i))
-
+        
         return answer
