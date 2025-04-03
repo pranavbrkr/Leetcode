@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/pranavbrkr/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/pranavbrkr/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0289-game-of-life](https://github.com/pranavbrkr/Leetcode/tree/master/0289-game-of-life) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/pranavbrkr/Leetcode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/pranavbrkr/Leetcode/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/pranavbrkr/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0371-sum-of-two-integers](https://github.com/pranavbrkr/Leetcode/tree/master/0371-sum-of-two-integers) |
 ## Tree
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/pranavbrkr/Leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/pranavbrkr/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -300,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/pranavbrkr/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/pranavbrkr/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/pranavbrkr/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0792-binary-search](https://github.com/pranavbrkr/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pranavbrkr/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -342,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/pranavbrkr/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/pranavbrkr/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/pranavbrkr/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -371,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/pranavbrkr/Leetcode/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/pranavbrkr/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
