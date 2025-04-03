@@ -5,7 +5,6 @@ class Solution {
             a = a ^ b;
             b = temp;
         }
-
         return a;
     }
 }
