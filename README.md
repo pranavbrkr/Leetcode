@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/pranavbrkr/Leetcode/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/pranavbrkr/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0190-reverse-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Graph
 |  |
