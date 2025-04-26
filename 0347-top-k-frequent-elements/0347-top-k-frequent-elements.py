@@ -5,18 +5,19 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        count_nums = defaultdict(int)
+        
+        count_num = {}
         for num in nums:
-            count_nums[num] += 1
+            count_num[num] = 1 + count_num.get(num, 0)
 
         heap = []
-        for number in count_nums.keys():
-            heapq.heappush(heap, (count_nums[number], number))
+        for num in count_num.keys():
+            heapq.heappush(heap, (count_num[num], num))
             if len(heap) > k:
                 heapq.heappop(heap)
 
         answer = []
         for i in range(k):
             answer.append(heapq.heappop(heap)[1])
-
+        
         return answer
