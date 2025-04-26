@@ -3,15 +3,15 @@ class Solution:
         if not nums:
             return 0
 
-        num_set = set(nums)
         max_seq = 1
+        num_set = set(nums)
 
-        for number in num_set:
-            if (number - 1) not in num_set:
+        for num in num_set:
+            if (num - 1) not in num_set:
                 curr_seq = 1
-                while (number + 1) in num_set:
+                while (num + 1) in num_set:
+                    num += 1
                     curr_seq += 1
-                    number += 1
                 
                 max_seq = max(max_seq, curr_seq)
         
