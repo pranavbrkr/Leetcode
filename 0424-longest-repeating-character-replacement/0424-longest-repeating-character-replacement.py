@@ -1,16 +1,16 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        hashmap = defaultdict(int)
-        answer = 0
+        charmap = {}
         l = 0
+        answer = 0
 
         for r in range(len(s)):
-            hashmap[s[r]] += 1
+            charmap[s[r]] = 1 + charmap.get(s[r], 0)
 
-            while (r - l + 1) - max(hashmap.values()) > k:
-                hashmap[s[l]] -= 1
+            if (r - l + 1) - max(charmap.values()) > k:
+                charmap[s[l]] -= 1
                 l += 1
             
-            answer = max(answer, (r - l + 1))
+            answer = max(answer, r - l + 1)
         
         return answer
