@@ -10,9 +10,9 @@ class Solution:
         curr = root
 
         while curr:
-            if curr.val > p.val and curr.val > q.val:
+            if p.val < curr.val and q.val < curr.val:
                 curr = curr.left
-            elif curr.val < p.val and curr.val < q.val:
+            elif p.val > curr.val and q.val > curr.val:
                 curr = curr.right
             else:
                 return curr
