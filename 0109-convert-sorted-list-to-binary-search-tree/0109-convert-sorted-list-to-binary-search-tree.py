@@ -10,9 +10,8 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def getMiddle(self, head):
-        fast = head
-        slow = head
+    def findMiddle(self, head):
+        slow = fast = head
         prev = None
 
         while fast and fast.next:
@@ -31,8 +30,9 @@ class Solution:
         if not head.next:
             return TreeNode(head.val)
         
-        middle = self.getMiddle(head)
+        middle = self.findMiddle(head)
         root = TreeNode(middle.val)
         root.right = self.sortedListToBST(middle.next)
         root.left = self.sortedListToBST(head)
+
         return root
