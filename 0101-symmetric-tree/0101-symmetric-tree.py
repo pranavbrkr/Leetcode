@@ -9,13 +9,17 @@ class Solution:
         if not root:
             return True
 
-        def checkSymmetry(lefttree, righttree):
-            if not lefttree and not righttree:
-                return True
-            
-            if lefttree and righttree and lefttree.val == righttree.val:
-                return checkSymmetry(lefttree.left, righttree.right) and checkSymmetry(lefttree.right, righttree.left)
-            else:
+        q = deque([(root.left, root.right)])
+
+        while q:
+            l, r = q.popleft()
+
+            if not l and not r:
+                continue
+            if not l or not r or l.val != r.val:
                 return False
+            
+            q.append((l.left, r.right))
+            q.append((l.right, r.left))
         
-        return checkSymmetry(root.left, root.right)
+        return True
