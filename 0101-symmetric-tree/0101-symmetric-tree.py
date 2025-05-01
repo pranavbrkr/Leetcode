@@ -9,15 +9,13 @@ class Solution:
         if not root:
             return True
 
-        def checkSymmetry(left_tree, right_tree):
-            if not left_tree and not right_tree:
+        def checkSymmetry(lefttree, righttree):
+            if not lefttree and not righttree:
                 return True
             
-            if not left_tree or not right_tree or left_tree.val != right_tree.val:
+            if lefttree and righttree and lefttree.val == righttree.val:
+                return checkSymmetry(lefttree.left, righttree.right) and checkSymmetry(lefttree.right, righttree.left)
+            else:
                 return False
-            
-            return (checkSymmetry(left_tree.left, right_tree.right) and
-                   checkSymmetry(left_tree.right, right_tree.left))
         
-
         return checkSymmetry(root.left, root.right)
