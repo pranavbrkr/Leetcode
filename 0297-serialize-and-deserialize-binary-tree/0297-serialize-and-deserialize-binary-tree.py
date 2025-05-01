@@ -13,17 +13,19 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        tree_pre = []
+        preorder = []
+        
         def dfs(node):
             if not node:
-                tree_pre.append("N")
+                preorder.append('N')
                 return
-            tree_pre.append(str(node.val))
+            preorder.append(str(node.val))
             dfs(node.left)
             dfs(node.right)
-
-        dfs(root) 
-        return ",".join(tree_pre)
+        
+        dfs(root)
+        return ",".join(preorder)
+        
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -31,20 +33,21 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        values = data.split(",")
+        data = data.split(',')
         self.i = 0
 
         def dfs():
-            if values[self.i] == 'N':
+            if data[self.i] == 'N':
                 self.i += 1
                 return None
-            node = TreeNode(int(values[self.i]))
+            node = TreeNode(int(data[self.i]))
             self.i += 1
             node.left = dfs()
             node.right = dfs()
             return node
         
         return dfs()
+        
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
