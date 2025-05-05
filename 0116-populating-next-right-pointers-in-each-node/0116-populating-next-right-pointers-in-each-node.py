@@ -10,21 +10,20 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        if not root:
-            return None
+        depth_map = {}
 
-        q = deque([root])
+        def dfs(node, depth):
+            if not node:
+                return
+            
+            if depth not in depth_map:
+                depth_map[depth] = node
+            else:
+                depth_map[depth].next = node
+                depth_map[depth] = node
 
-        while q:
-            levelsize = len(q)
-            while levelsize:
-                node = q.popleft()
-                if levelsize > 1:
-                    node.next = q[0]
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
-                levelsize -= 1
-        
+            dfs(node.left, depth + 1)
+            dfs(node.right, depth + 1)
+
+        dfs(root, 0)
         return root
