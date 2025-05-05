@@ -17,8 +17,10 @@ class Solution:
             
             copy = Node(node.val)
             node_map[node] = copy
+
             for neighbor in node.neighbors:
                 copy.neighbors.append(dfs(neighbor))
+            
             return copy
         
         return dfs(node) if node else None
