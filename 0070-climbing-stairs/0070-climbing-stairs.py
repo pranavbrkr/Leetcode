@@ -1,11 +1,11 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        down1 = 0
-        curr = 1
+        down2 = 1
+        down1 = 1
 
-        for i in range(n):
-            temp = curr + down1
-            down1 = curr
-            curr = temp
+        for i in range(n - 1):
+            temp = down2 + down1
+            down2 = down1
+            down1 = temp
         
-        return curr
+        return down1
