@@ -3,14 +3,14 @@ class Solution:
         answer = max(nums)
         curr_max, curr_min = 1, 1
 
-        for number in nums:
-            if number == 0:
+        for n in nums:
+            if n == 0:
                 curr_max, curr_min = 1, 1
                 continue
             
-            temp = curr_max * number
-            curr_max = max(curr_max * number, curr_min * number, number)
-            curr_min = min(temp, curr_min * number, number)
+            temp = curr_max * n
+            curr_max = max(temp, curr_min * n, n)
+            curr_min = min(temp, curr_min * n, n)
             answer = max(answer, curr_max)
         
         return answer
