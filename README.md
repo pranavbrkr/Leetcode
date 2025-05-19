@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/pranavbrkr/Leetcode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/pranavbrkr/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
+| [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Union Find
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0348-design-tic-tac-toe](https://github.com/pranavbrkr/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
+| [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Sorting
 |  |
