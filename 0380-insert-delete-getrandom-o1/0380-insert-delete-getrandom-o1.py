@@ -11,7 +11,6 @@ class RandomizedSet:
             self.num_map[val] = self.n
             self.num_list.append(val)
             self.n += 1
-            return True
         
         return res
 
