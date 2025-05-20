@@ -1,54 +1,53 @@
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
-        wordSet = set(wordList)
-        if endWord not in wordSet:
+        if endWord not in wordList:
             return []
         
-        neighbours = defaultdict(list)
-        for word in wordSet:
-            for j in range(len(word)):
-                pattern = word[:j] + "*" + word[j+1:]
-                neighbours[pattern].append(word)
-        
-        q = deque()
-        q.append(beginWord)
-        parent_map = defaultdict(set)
-        level = {beginWord: 0}
+        wordList.append(beginWord)
+        neighbors = defaultdict(list)
+
+        # Build the pattern-based neighbor map
+        for word in wordList:
+            for i in range(len(word)):
+                pattern = word[:i] + '*' + word[i+1:]
+                neighbors[pattern].append(word)
+
+        # BFS setup
+        q = deque([beginWord])
+        visited = set([beginWord])
         found = False
-        
+        parents = defaultdict(list)
+        level_visited = set()
+
         while q and not found:
-            next_level = defaultdict(set)
-            
             for _ in range(len(q)):
                 word = q.popleft()
-                cur_level = level[word]
-                
-                for j in range(len(word)):
-                    pattern = word[:j] + "*" + word[j+1:]
-                    for neighbour in neighbours[pattern]:
-                        if neighbour not in level:
-                            next_level[neighbour].add(word)
-                        elif level[neighbour] == cur_level + 1:
-                            next_level[neighbour].add(word)
-            
-            for word in next_level:
-                level[word] = cur_level + 1
-                q.append(word)
-                parent_map[word].update(next_level[word])
-                
-                if word == endWord:
-                    found = True
-                    
+                for i in range(len(word)):
+                    pattern = word[:i] + '*' + word[i+1:]
+                    for nei in neighbors[pattern]:
+                        if nei not in visited:
+                            if nei == endWord:
+                                found = True
+                            if nei not in level_visited:
+                                level_visited.add(nei)
+                                q.append(nei)
+                            parents[nei].append(word)
+            visited.update(level_visited)
+            level_visited.clear()
+
+        # If no path found
+        if not found:
+            return []
+
+        # Backtrack to build all paths
         res = []
-        
+
         def backtrack(word, path):
             if word == beginWord:
                 res.append(path[::-1])
                 return
-            for parent in parent_map[word]:
-                backtrack(parent, path + [parent])
-        
-        if found:
-            backtrack(endWord, [endWord])
-        
+            for p in parents[word]:
+                backtrack(p, path + [p])
+
+        backtrack(endWord, [endWord])
         return res
