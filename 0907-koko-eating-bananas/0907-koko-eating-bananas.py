@@ -9,11 +9,11 @@ class Solution:
 
             for pile in piles:
                 total_hours += ceil(pile / k)
-
+            
             if total_hours <= h:
                 answer = min(answer, k)
                 right = k - 1
             else:
                 left = k + 1
-
+        
         return answer
