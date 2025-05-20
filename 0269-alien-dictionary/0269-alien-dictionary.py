@@ -23,7 +23,6 @@ class Solution:
 
         while q:
             c = q.popleft()
-            print(c)
             answer.append(c)
             for nei in adj[c]:
                 indegree[nei] -= 1
