@@ -7,20 +7,17 @@ class Solution:
         prev = None
         answer = ""
 
-        while max_heap or prev:
+        while prev or max_heap:
             if not max_heap and prev:
                 return ""
-
-            # Add most frequent element
             cnt, char = heapq.heappop(max_heap)
             answer += char
             cnt += 1
 
-            # If there is prev, i.e. we used different character before, add it
             if prev:
                 heapq.heappush(max_heap, prev)
                 prev = None
-
+            
             if cnt != 0:
                 prev = [cnt, char]
         
