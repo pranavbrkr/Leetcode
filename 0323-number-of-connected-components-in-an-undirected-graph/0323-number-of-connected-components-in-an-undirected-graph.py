@@ -7,6 +7,7 @@ class Solution:
             res = node
 
             while res != parent[res]:
+                parent[res] = parent[parent[res]]
                 res = parent[res]
             return res
         
