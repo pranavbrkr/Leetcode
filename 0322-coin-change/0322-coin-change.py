@@ -1,18 +1,11 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        cache = {}
-        def dfs(ret):
-            if ret == 0:
-                return 0
-            if ret in cache:
-                return cache[ret]
-            
-            res = amount + 1
+        dp = [amount + 1] * (amount + 1)
+        dp[0] = 0
+
+        for i in range(1, amount + 1):
             for c in coins:
-                if (ret - c) >= 0:
-                    res = min(res, 1 + dfs(ret - c))
-            cache[ret] = res
-            return res
+                if i - c >= 0:
+                    dp[i] = min(dp[i], 1 + dp[i - c])
         
-        mincoins = dfs(amount)
-        return -1 if mincoins == (amount + 1) else mincoins
+        return dp[amount] if dp[amount] != (amount + 1) else -1
