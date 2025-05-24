@@ -6,5 +6,5 @@ class Solution:
             y = -heapq.heappop(arr)
             x = -heapq.heappop(arr)
             if x != y:
-                heapq.heappush(arr, -(y - x))
+                heapq.heappush(arr, x - y)
         return -arr[0] if arr else 0
