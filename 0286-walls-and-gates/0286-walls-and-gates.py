@@ -8,13 +8,14 @@ class Solution:
         n = len(rooms[0])
         INF = 2147483647
         q = deque()
+        visited = set()
 
         for i in range(m):
             for j in range(n):
                 if rooms[i][j] == 0:
                     q.append((i, j))
+                    visited.add((i, j))
         
-        visited = set()
         directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
         while q:
             row, col = q.popleft()
