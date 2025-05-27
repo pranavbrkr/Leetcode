@@ -3,12 +3,10 @@ class Solution:
         """
         Do not return anything, modify rooms in-place instead.
         """
-
-        m = len(rooms)
-        n = len(rooms[0])
-        INF = 2147483647
-        q = deque()
+        m, n = len(rooms), len(rooms[0])
         visited = set()
+        dist = 0
+        q = deque()
 
         for i in range(m):
             for j in range(n):
@@ -16,14 +14,18 @@ class Solution:
                     q.append((i, j))
                     visited.add((i, j))
         
-        directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
-        while q:
-            row, col = q.popleft()
-            for dr, dc in directions:
-                nr, nc = row + dr, col + dc
-                if 0 <= nr < m and 0 <= nc < n and rooms[nr][nc] != 0 and rooms[nr][nc] != -1 and ((nr, nc) not in visited or rooms[nr][nc] > (rooms[row][col] + 1)):
-                    rooms[nr][nc] = rooms[row][col] + 1 if rooms[nr][nc] == INF else min(rooms[nr][nc], rooms[row][col] + 1)
-                    q.append((nr, nc))
-                    print(f"({nr}, {nc}) appended with cost = {rooms[nr][nc]}")
-                    visited.add((nr, nc))
+        def addRoom(row, col):
+            if (row < 0 or row == m or col < 0 or col == n or (row, col) in visited or rooms[row][col] == -1):
+                return
+            q.append((row, col))
+            visited.add((row, col))
         
+        while q:
+            for i in range(len(q)):
+                r, c = q.popleft()
+                rooms[r][c] = dist
+                addRoom(r + 1, c)
+                addRoom(r - 1, c)
+                addRoom(r, c + 1)
+                addRoom(r, c - 1)
+            dist += 1
