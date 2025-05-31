@@ -1,9 +1,7 @@
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
-        n = max(max(edge) for edge in edges)
-
-        parent = [i for i in range(n + 1)]
-        rank = [1 for i in range(n + 1)]
+        parent = [i for i in range(len(edges) + 1)]
+        rank = [1] * (len(edges) + 1)
 
         def find(node):
             res = node
