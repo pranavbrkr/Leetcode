@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
+| [0560-subarray-sum-equals-k](https://github.com/pranavbrkr/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/pranavbrkr/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/pranavbrkr/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Hash Table
 |  |
@@ -422,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/pranavbrkr/Leetcode/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/pranavbrkr/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/pranavbrkr/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/pranavbrkr/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
