@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1127-last-stone-weight](https://github.com/pranavbrkr/Leetcode/tree/master/1127-last-stone-weight) |
+| [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
+| [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Matrix
 |  |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
+| [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Greedy
 |  |
 | ------- |
@@ -640,4 +643,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
