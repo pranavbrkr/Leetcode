@@ -3,11 +3,12 @@ class Solution:
         n = len(points)
 
         edges = []
-        heapq.heapify(edges)
 
         for i in range(n):
             for j in range(i + 1, n):
-                heapq.heappush(edges, [abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]), i, j])
+                edges.append([abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]), i, j])
+        
+        edges.sort()
         
         min_cost = 0
         parent = [i for i in range(n)]
@@ -32,8 +33,7 @@ class Solution:
             parent[p2] = p1            
             return True
 
-        while edges:
-            cost, i, j = heapq.heappop(edges)
+        for cost, i, j in edges:
             if union(i, j):
                 print(i, j)
                 min_cost += cost
