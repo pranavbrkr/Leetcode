@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Binary Tree
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/pranavbrkr/Leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
+| [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -558,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/pranavbrkr/Leetcode/tree/master/0269-alien-dictionary) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 ## Greedy
 |  |
 | ------- |
@@ -632,4 +636,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
