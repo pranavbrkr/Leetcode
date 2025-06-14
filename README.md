@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0518-coin-change-ii) |
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
 | [0560-subarray-sum-equals-k](https://github.com/pranavbrkr/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/pranavbrkr/Leetcode/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/pranavbrkr/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/pranavbrkr/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
+| [0494-target-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0494-target-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
