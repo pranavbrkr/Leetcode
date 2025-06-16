@@ -3,18 +3,17 @@ class Solution:
         answer = []
         subset = []
 
-        def dfs(i):
-            if i >= len(nums):
+        def backtrack(index):
+            if index >= len(nums):
                 answer.append(subset.copy())
                 return
             
-            # include nums[i]
-            subset.append(nums[i])
-            dfs(i + 1)
+            subset.append(nums[index])
+            backtrack(index + 1)
 
-            # do not include nums[i]
             subset.pop()
-            dfs(i + 1)
+            backtrack(index + 1)
+            return
         
-        dfs(0)
+        backtrack(0)
         return answer
