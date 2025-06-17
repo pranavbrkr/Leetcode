@@ -3,23 +3,24 @@ class Solution:
         answer = []
         candidates.sort()
 
-        def dfs(i, curr, total):
+        def backtrack(i, curr, total):
             if total == target:
                 answer.append(curr.copy())
                 return
             
-            if total > target or i == len(candidates):
+            if i >= len(candidates) or total > target:
                 return
             
-            # include candidates[i]
+            # Include candidate[i]
             curr.append(candidates[i])
-            dfs(i + 1, curr, total + candidates[i])
-            curr.pop()
+            backtrack(i + 1, curr, total + candidates[i])
 
-            # skip candidates[i]
+            # Skip candidate[i]
+            curr.pop()
             while (i + 1) < len(candidates) and candidates[i] == candidates[i + 1]:
                 i += 1
-            dfs(i + 1, curr, total)
+            backtrack(i + 1, curr, total)
+            return
         
-        dfs(0, [], 0)
+        backtrack(0, [], 0)
         return answer
