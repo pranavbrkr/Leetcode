@@ -7,16 +7,13 @@ class Solution:
                 answer.append(subarray.copy())
                 return
             
-            if index >= len(candidates):
+            if index >= len(candidates) or total > target:
                 return
             
-            if total > target:
-                return
-            
-            for j in range(index, len(candidates)):
-                subarray.append(candidates[j])
-                backtrack(j, subarray, total + candidates[j])
-                subarray.pop()
+            subarray.append(candidates[index])
+            backtrack(index, subarray, total + candidates[index])
+            subarray.pop()
+            backtrack(index + 1, subarray, total)
         
         backtrack(0, [], 0)
         return answer
