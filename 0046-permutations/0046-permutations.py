@@ -1,15 +1,22 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) == 0:
-            return [[]]
-
-        perms = self.permute(nums[1:])
-
         answer = []
-        for perm in perms:
-            for i in range(len(perm) + 1):
-                p_copy = perm.copy()
-                p_copy.insert(i, nums[0])
-                answer.append(p_copy)
+        freq = [False] * len(nums)
+
+        def backtrack(curr):
+            if len(curr) == len(nums):
+                answer.append(curr.copy())
+                return
+            
+            for i in range(len(nums)):
+                if not freq[i]:
+                    freq[i] = True
+                    curr.append(nums[i])
+                    backtrack(curr)
+                    curr.pop()
+                    freq[i] = False
+            
+            return
         
+        backtrack([])
         return answer
