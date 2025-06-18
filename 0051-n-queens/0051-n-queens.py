@@ -7,22 +7,22 @@ class Solution:
 
         board = [['.'] * n for _ in range(n)]
 
-        def backtrack(c):
-            if c == n:
+        def backtrack(r):
+            if r == n:
                 copy = ["".join(row) for row in board]
                 answer.append(copy)
                 return
             
-            for r in range(n):
+            for c in range(n):
                 if c in col or (r + c) in pos_diag or (r - c) in neg_diag:
-                    return
+                    continue
                 
                 board[r][c] = 'Q'
                 col.add(c)
                 pos_diag.add(r + c)
                 neg_diag.add(r - c)
 
-                backtrack(c + 1)
+                backtrack(r + 1)
                 
                 board[r][c] = '.'
                 col.remove(c)
