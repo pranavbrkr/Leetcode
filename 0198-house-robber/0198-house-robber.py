@@ -4,19 +4,12 @@ class Solution:
         cache = [-1] * len(nums)
         cache[0] = nums[0]
 
-        def recursion(index):
-            if cache[index] != -1:
-                return cache[index]
-            if index == 0:
-                return cache[index]
-            
-            if index < 0:
-                return 0
-            
-            pick = nums[index] + recursion(index - 2)
-            non_pick = recursion(index - 1)
+        for i in range(1, len(nums)):
+            pick = nums[i]
+            if i > 1:
+                pick += cache[i - 2]
+            non_pick = cache[i - 1]
 
-            cache[index] = max(pick, non_pick)
-            return cache[index]
+            cache[i] = max(pick, non_pick)
 
-        return recursion(len(nums) - 1)
+        return cache[-1]
