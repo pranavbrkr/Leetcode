@@ -1,17 +1,22 @@
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
-        dp = [[float('inf') for _ in range(n)] for _ in range(m)]
+        cache = [[-1] * n for _ in range(m)]
 
-        for i in range(m):
-            for j in range(n):
-                if i == 0 and j == 0:
-                    dp[i][j] = grid[i][j]
-                elif i == 0:
-                    dp[i][j] = dp[i][j - 1] + grid[i][j]
-                elif j == 0:
-                    dp[i][j] = dp[i - 1][j] + grid[i][j]
-                else:
-                    dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]
+        def recursion(i, j):
+            if i == 0 and j == 0:
+                return grid[0][0]
+            
+            if i < 0 or j < 0:
+                return float('inf')
+            
+            if cache[i][j] != -1:
+                return cache[i][j]
+
+            up = grid[i][j] + recursion(i - 1, j)
+            left = grid[i][j] + recursion(i, j - 1)
+
+            cache[i][j] = min(up, left)
+            return cache[i][j]
         
-        return dp[m - 1][n - 1]
+        return recursion(len(grid) - 1, len(grid[0]) - 1)
