@@ -2,21 +2,21 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
         n = len(prices)
-        dp = [[0 for _ in range(2)] for _ in range(n + 1)]
-        dp[n][0] = 0
-        dp[n][1] = 0
+        prev_dp = [0, 0]
 
         for index in range(n - 1, -1, -1):
+            curr_dp = []
             for buy in range(2):
                 if buy:
-                    dp[index][buy] = max(
-                        -prices[index] + dp[index + 1][0],
-                        0 + dp[index + 1][1]
-                    )
+                    curr_dp.append(max(
+                        -prices[index] + prev_dp[0],
+                        0 + prev_dp[1]
+                    ))
                 else:
-                    dp[index][buy] = max(
-                        prices[index] + dp[index + 1][1],
-                        0 + dp[index + 1][0]
-                    )
+                    curr_dp.append(max(
+                        prices[index] + prev_dp[1],
+                        0 + prev_dp[0]
+                    ))
+            prev_dp = curr_dp
         
-        return dp[0][1]
+        return prev_dp[1]
