@@ -1,27 +1,22 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
-        dp = [[-1 for _ in range(2)] for _ in range(len(prices))]
-        
-        def recursion(index, buy):
-            if index == len(prices):
-                return 0
-            
-            if dp[index][buy] != -1:
-                return dp[index][buy]
+        n = len(prices)
+        dp = [[0 for _ in range(2)] for _ in range(n + 1)]
+        dp[n][0] = 0
+        dp[n][1] = 0
 
-            if buy:
-                profit = max(
-                    -prices[index] + recursion(index + 1, 0),
-                    0 + recursion(index + 1, 1)
-                )
-            else:
-                profit = max(
-                    prices[index] + recursion(index + 1, 1),
-                    0 + recursion(index + 1, 0)
-                )
-            
-            dp[index][buy] = profit
-            return profit
+        for index in range(n - 1, -1, -1):
+            for buy in range(2):
+                if buy:
+                    dp[index][buy] = max(
+                        -prices[index] + dp[index + 1][0],
+                        0 + dp[index + 1][1]
+                    )
+                else:
+                    dp[index][buy] = max(
+                        prices[index] + dp[index + 1][1],
+                        0 + dp[index + 1][0]
+                    )
         
-        return recursion(0, True)
+        return dp[0][1]
