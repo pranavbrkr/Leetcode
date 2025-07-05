@@ -1,26 +1,19 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         n = len(prices)
-        dp = [[-1 for _ in range(2)] for _ in range(n)]
+        dp = [[0 for _ in range(2)] for _ in range(n + 1)]
 
-        def recursion(index, buy):
-            if index == n:
-                return 0
-            
-            if dp[index][buy] != -1:
-                return dp[index][buy]
-            
-            if buy:
-                dp[index][buy] = max(
-                    -prices[index] + recursion(index + 1, 0),
-                    0 + recursion(index + 1, 1)
-                )
-            else:
-                dp[index][buy] = max(
-                    prices[index] - fee + recursion(index + 1, 1),
-                    0 + recursion(index + 1, 0)
-                )
-            
-            return dp[index][buy]
+        for index in range(n - 1, -1, -1):
+            for buy in range(2):
+                if buy:
+                    dp[index][buy] = max(
+                        -prices[index] + dp[index + 1][0],
+                        0 + dp[index + 1][1]
+                    )
+                else:
+                    dp[index][buy] = max(
+                        prices[index] - fee + dp[index + 1][1],
+                        0 + dp[index + 1][0]
+                    )
         
-        return recursion(0, 1)
+        return dp[0][1]
