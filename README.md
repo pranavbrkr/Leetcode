@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/pranavbrkr/Leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
+| [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/pranavbrkr/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/pranavbrkr/Leetcode/tree/master/0909-stone-game) |
 | [0967-minimum-falling-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -654,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/pranavbrkr/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
+| [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Topological Sort
 |  |
