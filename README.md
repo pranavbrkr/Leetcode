@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/pranavbrkr/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/pranavbrkr/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/pranavbrkr/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/pranavbrkr/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/pranavbrkr/Leetcode/tree/master/0155-min-stack) |
+| [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 ## Monotonic Stack
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -653,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/pranavbrkr/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/pranavbrkr/Leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/pranavbrkr/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
