@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/pranavbrkr/Leetcode/tree/master/0529-minesweeper) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pranavbrkr/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/pranavbrkr/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
+| [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -712,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 ## Randomized
 |  |
 | ------- |
