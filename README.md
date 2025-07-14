@@ -264,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/pranavbrkr/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/pranavbrkr/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/pranavbrkr/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/pranavbrkr/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/pranavbrkr/Leetcode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/pranavbrkr/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 ## Matrix
@@ -647,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0332-reconstruct-itinerary](https://github.com/pranavbrkr/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0684-redundant-connection](https://github.com/pranavbrkr/Leetcode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/pranavbrkr/Leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/pranavbrkr/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/pranavbrkr/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Greedy
