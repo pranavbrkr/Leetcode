@@ -1,27 +1,30 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        pre_map = {i : [] for i in range(numCourses)}
-        visited = set()
+        course_graph = [[] for _ in range(numCourses)]
 
-        for crs, pre in prerequisites:
-            pre_map[crs].append(pre)
+        for sub, dep in prerequisites:
+            course_graph[sub].append(dep)
+        
+        visited = [False] * numCourses
+        path_visited = [False] * numCourses
 
-        def dfs(crs):
-            if crs in visited:
-                return False
-            if pre_map[crs] == []:
-                return True
+        def dfs(course):
+            visited[course] = True
+            path_visited[course] = True
 
-            visited.add(crs)
-            for pre in pre_map[crs]:
-                if not dfs(pre):
+            for dep in course_graph[course]:
+                if not visited[dep]:
+                    if not dfs(dep):
+                        return False
+                elif path_visited[dep]:
                     return False
-            visited.remove(crs)
-            pre_map[crs] = []
+            
+            path_visited[course] = False
             return True
         
-        for crs in range(numCourses):
-            if not dfs(crs):
-                return False
+        for i in range(numCourses):
+            if not visited[i]:
+                if not dfs(i):
+                    return False
         
         return True
