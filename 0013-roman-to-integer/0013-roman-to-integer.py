@@ -9,10 +9,11 @@ class Solution:
             'D': 500,
             'M': 1000,
         }
-        answer = 0
 
-        for i in range(len(s)):
-            if (i + 1) < len(s) and roman_map[s[i]] < roman_map[s[i + 1]]:
+        answer = 0
+        n = len(s)
+        for i in range(n):
+            if (i + 1) < n and roman_map[s[i]] < roman_map[s[i + 1]]:
                 answer -= roman_map[s[i]]
             else:
                 answer += roman_map[s[i]]
