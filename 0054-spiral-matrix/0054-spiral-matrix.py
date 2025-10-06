@@ -1,6 +1,7 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         answer = []
+
         left, right = 0, len(matrix[0])
         top, bottom = 0, len(matrix)
 
@@ -11,11 +12,12 @@ class Solution:
 
             for i in range(top, bottom):
                 answer.append(matrix[i][right - 1])
+            
             right -= 1
 
-            if not (left < right and top < bottom):
+            if not left < right or not top < bottom:
                 break
-            
+
             for i in range(right - 1, left - 1, -1):
                 answer.append(matrix[bottom - 1][i])
             bottom -= 1
