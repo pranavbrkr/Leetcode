@@ -1,35 +1,35 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         answer = []
-        col = set()
+        col_set = set()
         pos_diag = set()
         neg_diag = set()
-
+        
         board = [['.'] * n for _ in range(n)]
 
-        def backtrack(r):
-            if r == n:
+        def backtrack(row):
+            if row == n:
                 copy = ["".join(row) for row in board]
                 answer.append(copy)
                 return
             
-            for c in range(n):
-                if c in col or (r + c) in pos_diag or (r - c) in neg_diag:
+            for col in range(n):
+                if col in col_set or (row + col) in pos_diag or (row - col) in neg_diag:
                     continue
-                
-                board[r][c] = 'Q'
-                col.add(c)
-                pos_diag.add(r + c)
-                neg_diag.add(r - c)
 
-                backtrack(r + 1)
-                
-                board[r][c] = '.'
-                col.remove(c)
-                pos_diag.remove(r + c)
-                neg_diag.remove(r - c)
+                board[row][col] = 'Q'
+                col_set.add(col)
+                pos_diag.add((row + col))
+                neg_diag.add((row - col))
+
+                backtrack(row + 1)
+
+                board[row][col] = '.'
+                col_set.remove(col)
+                pos_diag.remove((row + col))
+                neg_diag.remove((row - col))
 
             return
-
+        
         backtrack(0)
         return answer
