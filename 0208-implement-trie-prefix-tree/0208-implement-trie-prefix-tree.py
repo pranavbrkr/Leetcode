@@ -3,6 +3,7 @@ class TrieNode:
         self.children = {}
         self.end_of_word = False
 
+
 class Trie:
 
     def __init__(self):
@@ -14,9 +15,7 @@ class Trie:
             if c not in curr.children:
                 curr.children[c] = TrieNode()
             curr = curr.children[c]
-        
         curr.end_of_word = True
-        
 
     def search(self, word: str) -> bool:
         curr = self.root
@@ -34,8 +33,8 @@ class Trie:
                 return False
             curr = curr.children[c]
         
-        return True
-        
+        return True        
+
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
