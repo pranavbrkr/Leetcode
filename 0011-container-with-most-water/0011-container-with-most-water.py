@@ -4,8 +4,7 @@ class Solution:
         max_vol = -1
 
         while l < r:
-            curr_vol = (r - l) * min(height[l], height[r])
-            max_vol = max(curr_vol, max_vol)
+            max_vol = max(max_vol, (r - l) * min(height[l], height[r]))
 
             if height[l] <= height[r]:
                 l += 1
