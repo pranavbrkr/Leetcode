@@ -6,7 +6,7 @@ class Solution:
         n = len(nums)
         breakpoint = -1
 
-        for i in range(n - 1, -1, -1):
+        for i in range(n - 1, 0, -1):
             if nums[i] > nums[i - 1]:
                 breakpoint = i - 1
                 break
