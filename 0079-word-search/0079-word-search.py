@@ -20,7 +20,7 @@ class Solution:
         
         for i in range(m):
             for j in range(n):
-                if dfs(i, j, 0):
+                if board[i][j] == word[0] and dfs(i, j, 0):
                     return True
         
         return False
