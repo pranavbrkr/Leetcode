@@ -1,23 +1,26 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
+        answer = []
         stack = []
-        res = []
+
+
         def backtrack(openN, closeN):
-            # 
             if openN == closeN == n:
-                res.append(''.join(stack))
-                print(''.join(stack))
+                answer.append("".join(stack))
+                return
+            
             if openN < n:
-                #increment the opening bracket
                 stack.append('(')
-                print(stack)
-                backtrack(openN+1, closeN)
+                backtrack(openN + 1, closeN)
                 stack.pop()
+            
             if closeN < openN:
-                #increment the closing bracket
                 stack.append(')')
-                print(stack)
-                backtrack(openN, closeN+1)
+                backtrack(openN, closeN + 1)
                 stack.pop()
+            
+            return
+        
         backtrack(0, 0)
-        return res
+
+        return answer
