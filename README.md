@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1127-last-stone-weight](https://github.com/pranavbrkr/Leetcode/tree/master/1127-last-stone-weight) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/pranavbrkr/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1603-running-sum-of-1d-array](https://github.com/pranavbrkr/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/pranavbrkr/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Monotonic Stack
 |  |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/pranavbrkr/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/pranavbrkr/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Math
 |  |
