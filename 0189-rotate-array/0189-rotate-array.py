@@ -3,11 +3,20 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n = len(nums)
 
-        k = k % n
-        if k == 0:
-            return
+        k = k % len(nums)
 
-        nums[:] = nums[-k:] + nums[:-k]
+        nums.reverse()
+
+        l, r = 0, k - 1
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l += 1
+            r -= 1
+
+        l, r = k, len(nums) - 1
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l += 1
+            r -= 1
         
