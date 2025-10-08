@@ -546,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1905-design-authentication-manager](https://github.com/pranavbrkr/Leetcode/tree/master/1905-design-authentication-manager) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Linked List
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/pranavbrkr/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/pranavbrkr/Leetcode/tree/master/0355-design-twitter) |
+| [1905-design-authentication-manager](https://github.com/pranavbrkr/Leetcode/tree/master/1905-design-authentication-manager) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Bit Manipulation
 |  |
@@ -625,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/pranavbrkr/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [1905-design-authentication-manager](https://github.com/pranavbrkr/Leetcode/tree/master/1905-design-authentication-manager) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -717,6 +720,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/pranavbrkr/Leetcode/tree/master/0146-lru-cache) |
+| [1905-design-authentication-manager](https://github.com/pranavbrkr/Leetcode/tree/master/1905-design-authentication-manager) |
 ## Trie
 |  |
 | ------- |
