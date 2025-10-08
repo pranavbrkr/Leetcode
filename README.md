@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pranavbrkr/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/pranavbrkr/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/pranavbrkr/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Stack
 |  |
 | ------- |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -196,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/pranavbrkr/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/pranavbrkr/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Math
 |  |
 | ------- |
@@ -713,6 +717,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Topological Sort
 |  |
 | ------- |
