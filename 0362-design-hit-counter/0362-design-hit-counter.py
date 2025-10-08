@@ -2,16 +2,18 @@ class HitCounter:
 
     def __init__(self):
         self.hits = deque()
+        self.total_hits = 0
 
     def hit(self, timestamp: int) -> None:
         self.hits.append(timestamp)
-        print(f'hit {self.hits}')
+        self.total_hits += 1
 
     def getHits(self, timestamp: int) -> int:
         while self.hits and (timestamp - self.hits[0]) >= 300:
             self.hits.popleft()
+            self.total_hits -= 1
         
-        return len(self.hits)
+        return self.total_hits
 
 
 # Your HitCounter object will be instantiated and called as such:
