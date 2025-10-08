@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/pranavbrkr/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/pranavbrkr/Leetcode/tree/master/0909-stone-game) |
 | [0967-minimum-falling-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1006-vowel-spellchecker](https://github.com/pranavbrkr/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1006-vowel-spellchecker](https://github.com/pranavbrkr/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1170-shortest-common-supersequence](https://github.com/pranavbrkr/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/1250-longest-common-subsequence) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1006-vowel-spellchecker](https://github.com/pranavbrkr/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
