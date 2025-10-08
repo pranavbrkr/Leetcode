@@ -7,5 +7,6 @@ class Solution:
 
         k = k % n
 
+
         nums[:] = nums[-k:] + nums[:-k]
         
