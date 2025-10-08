@@ -5,13 +5,16 @@ class HitCounter:
         self.total_hits = 0
 
     def hit(self, timestamp: int) -> None:
-        self.hits.append(timestamp)
+        if self.hits and self.hits[-1][0] == timestamp:
+            self.hits[-1] = (timestamp, self.hits[-1][1] + 1)
+        else:
+            self.hits.append((timestamp, 1))
         self.total_hits += 1
 
     def getHits(self, timestamp: int) -> int:
-        while self.hits and (timestamp - self.hits[0]) >= 300:
+        while self.hits and (timestamp - self.hits[0][0]) >= 300:
+            self.total_hits -= self.hits[0][1]
             self.hits.popleft()
-            self.total_hits -= 1
         
         return self.total_hits
 
