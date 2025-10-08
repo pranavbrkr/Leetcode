@@ -6,7 +6,8 @@ class Solution:
         n = len(nums)
 
         k = k % n
-
+        if k == 0:
+            return
 
         nums[:] = nums[-k:] + nums[:-k]
         
