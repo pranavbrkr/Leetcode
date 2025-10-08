@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-stone-game](https://github.com/pranavbrkr/Leetcode/tree/master/0909-stone-game) |
 | [1013-fibonacci-number](https://github.com/pranavbrkr/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/pranavbrkr/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/pranavbrkr/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 ## Tree
 |  |
