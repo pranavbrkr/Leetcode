@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/pranavbrkr/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/pranavbrkr/Leetcode/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/pranavbrkr/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/pranavbrkr/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/pranavbrkr/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0212-word-search-ii) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/pranavbrkr/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/pranavbrkr/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/pranavbrkr/Leetcode/tree/master/0143-reorder-list) |
+| [0189-rotate-array](https://github.com/pranavbrkr/Leetcode/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/pranavbrkr/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/pranavbrkr/Leetcode/tree/master/0455-assign-cookies) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/pranavbrkr/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/pranavbrkr/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranavbrkr/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/pranavbrkr/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/pranavbrkr/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0371-sum-of-two-integers](https://github.com/pranavbrkr/Leetcode/tree/master/0371-sum-of-two-integers) |
