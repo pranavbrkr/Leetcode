@@ -9,12 +9,14 @@ class Solution:
         group_prev = dummy
 
         while True:
-            kth =  self.getKth(group_prev, k)
+            kth = self.getKth(group_prev, k)
             if not kth:
                 break
             group_next = kth.next
 
+            # reversing the group
             prev, curr = kth.next, group_prev.next
+
             while curr != group_next:
                 temp = curr.next
                 curr.next = prev
@@ -24,12 +26,12 @@ class Solution:
             temp = group_prev.next
             group_prev.next = kth
             group_prev = temp
-        
+
         return dummy.next
 
-
+        
     def getKth(self, curr, k):
         while curr and k > 0:
             curr = curr.next
-            k -=1
+            k -= 1
         return curr
