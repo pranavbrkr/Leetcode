@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/pranavbrkr/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/pranavbrkr/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/pranavbrkr/Leetcode/tree/master/0348-design-tic-tac-toe) |
+| [0362-design-hit-counter](https://github.com/pranavbrkr/Leetcode/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/pranavbrkr/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/pranavbrkr/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/pranavbrkr/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/pranavbrkr/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0362-design-hit-counter](https://github.com/pranavbrkr/Leetcode/tree/master/0362-design-hit-counter) |
 | [0792-binary-search](https://github.com/pranavbrkr/Leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/pranavbrkr/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/pranavbrkr/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -619,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/pranavbrkr/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0348-design-tic-tac-toe](https://github.com/pranavbrkr/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/pranavbrkr/Leetcode/tree/master/0355-design-twitter) |
+| [0362-design-hit-counter](https://github.com/pranavbrkr/Leetcode/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/pranavbrkr/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/pranavbrkr/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -653,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/pranavbrkr/Leetcode/tree/master/0362-design-hit-counter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/pranavbrkr/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Divide and Conquer
 |  |
@@ -761,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/pranavbrkr/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0362-design-hit-counter](https://github.com/pranavbrkr/Leetcode/tree/master/0362-design-hit-counter) |
 | [0387-first-unique-character-in-a-string](https://github.com/pranavbrkr/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 ## Monotonic Queue
 |  |
