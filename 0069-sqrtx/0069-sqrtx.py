@@ -4,7 +4,7 @@ class Solution:
         sqrt = 0
 
         while l <= r:
-            mid = l + (r - l) // 2
+            mid = (l + r) // 2
 
             if mid * mid == x:
                 return mid
