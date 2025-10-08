@@ -7,14 +7,14 @@ class Solution:
             graph[c2].add(c1)
 
         max_rank = 0        
-        for city1 in graph.keys():
-            for city2 in graph.keys():
-                if city1 == city2:
-                    continue
+        for city1 in range(n):
+            for city2 in range(city1 + 1, n):
+
+                current_rank = len(graph[city1]) + len(graph[city2])
+                if city2 in graph[city1]:
+                    current_rank -= 1
                 
-                if max_rank < (len(graph[city1]) + len(graph[city2])):
-                    max_rank = (len(graph[city1]) + len(graph[city2]))
-                    max_rank += -1 if city2 in graph[city1] else 0
+                max_rank = max(max_rank, current_rank)
         
 
         return max_rank
