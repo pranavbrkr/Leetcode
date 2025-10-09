@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/pranavbrkr/Leetcode/tree/master/1036-rotting-oranges) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/pranavbrkr/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1127-last-stone-weight](https://github.com/pranavbrkr/Leetcode/tree/master/1127-last-stone-weight) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/pranavbrkr/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1603-running-sum-of-1d-array](https://github.com/pranavbrkr/Leetcode/tree/master/1603-running-sum-of-1d-array) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-stone-game](https://github.com/pranavbrkr/Leetcode/tree/master/0909-stone-game) |
 | [0967-minimum-falling-path-sum](https://github.com/pranavbrkr/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/pranavbrkr/Leetcode/tree/master/1013-fibonacci-number) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/pranavbrkr/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1170-shortest-common-supersequence](https://github.com/pranavbrkr/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/pranavbrkr/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/pranavbrkr/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
