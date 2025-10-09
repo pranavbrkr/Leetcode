@@ -1,6 +1,6 @@
 class Solution:
     def minimumEffort(self, tasks: List[List[int]]) -> int:
-        tasks.sort(key = lambda x: x[0] - x[1])
+        tasks.sort(key = lambda x: x[1] - x[0], reverse = True)
 
         answer = 0
         curr_energy = 0
