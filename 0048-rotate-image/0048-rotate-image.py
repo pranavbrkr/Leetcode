@@ -6,8 +6,8 @@ class Solution:
         l, r = 0, len(matrix) - 1
 
         while l < r:
+            top, bottom = l, r
             for i in range(r - l):
-                top, bottom = l, r
 
                 # save the top left
                 top_left = matrix[top][l + i]
