@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1305-number-of-visible-people-in-a-queue](https://github.com/pranavbrkr/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1603-running-sum-of-1d-array](https://github.com/pranavbrkr/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/pranavbrkr/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1784-minimum-initial-energy-to-finish-tasks](https://github.com/pranavbrkr/Leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
@@ -480,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/pranavbrkr/Leetcode/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/pranavbrkr/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/pranavbrkr/Leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
+| [1784-minimum-initial-energy-to-finish-tasks](https://github.com/pranavbrkr/Leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 ## Binary Search
 |  |
 | ------- |
@@ -721,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/pranavbrkr/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
+| [1784-minimum-initial-energy-to-finish-tasks](https://github.com/pranavbrkr/Leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Topological Sort
