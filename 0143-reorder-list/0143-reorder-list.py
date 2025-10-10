@@ -8,38 +8,38 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        # Split list into two
-        list1 = head
+        # Find mindpoint, delink and assign it to list2
         slow, fast = head, head.next
 
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-
+        
         list2 = slow.next
         slow.next = None
 
         # Reverse list2
         prev, curr = None, list2
-
         while curr:
-            temp = curr
-            curr = curr.next
-            temp.next = prev
-            prev = temp
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
         
         list2 = prev
 
-        # Merge two lists
-        curr = head
+        # Merge list2 into list1
+        curr1 = head
         curr2 = list2
-        prev = None
-        prev2 = None
+        prev1, prev2 = None, None
 
         while curr2:
-            prev = curr
-            curr = curr.next
+            prev1 = curr1
+            curr1 = curr1.next
             prev2 = curr2
             curr2 = curr2.next
-            prev2.next = curr
-            prev.next = prev2
+            prev1.next = prev2
+            prev2.next = curr1
+        
+        return head
+
