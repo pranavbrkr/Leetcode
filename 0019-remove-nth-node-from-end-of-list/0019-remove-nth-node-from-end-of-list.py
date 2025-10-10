@@ -10,14 +10,19 @@ class Solution:
         right = head
         count = 0
 
+        # move the right n times
         while count < n:
             right = right.next
             count += 1
         
+
+        # move right and left until right is None
         while right:
             right = right.next
             left = left.next
         
+
+        # link left to its further neighbor
         left.next = left.next.next
 
         return dummy.next
