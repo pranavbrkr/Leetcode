@@ -17,5 +17,5 @@ class Solution:
             curr = curr.next
         
         curr.next = list1 or list2
-        
+
         return dummy.next
