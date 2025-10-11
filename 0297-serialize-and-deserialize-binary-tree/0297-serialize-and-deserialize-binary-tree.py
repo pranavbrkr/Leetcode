@@ -14,7 +14,6 @@ class Codec:
         :rtype: str
         """
         preorder = []
-        
         def dfs(node):
             if not node:
                 preorder.append('N')
@@ -33,8 +32,8 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        data = data.split(',')
         self.i = 0
+        data = data.split(',')
 
         def dfs():
             if data[self.i] == 'N':
