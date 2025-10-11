@@ -7,13 +7,21 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         
-        def isValid(node, left_val, right_val):
-            if not node:
-                return True
-            
+        if not root:
+            return True
+        
+        q = deque()
+        q.append((root, float('-inf'), float('inf')))
+
+        while q:
+            node, left_val, right_val = q.popleft()
+
             if not (left_val < node.val < right_val):
                 return False
             
-            return isValid(node.left, left_val, node.val) and isValid(node.right, node.val, right_val)
+            if node.left:
+                q.append((node.left, left_val, node.val))
+            if node.right:
+                q.append((node.right, node.val, right_val))
         
-        return isValid(root, float('-inf'), float('inf'))
+        return True
