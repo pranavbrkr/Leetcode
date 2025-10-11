@@ -6,20 +6,14 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        if not root:
-            return True
         
-        q = deque([(root, float('-inf'), float('inf'))])
-
-        while q:
-            node, l, r = q.popleft()
-
-            if not (l < node.val < r):
+        def isValid(node, left_val, right_val):
+            if not node:
+                return True
+            
+            if not (left_val < node.val < right_val):
                 return False
             
-            if node.left:
-                q.append((node.left, l, node.val))
-            if node.right:
-                q.append((node.right, node.val, r))
+            return isValid(node.left, left_val, node.val) and isValid(node.right, node.val, right_val)
         
-        return True
+        return isValid(root, float('-inf'), float('inf'))
