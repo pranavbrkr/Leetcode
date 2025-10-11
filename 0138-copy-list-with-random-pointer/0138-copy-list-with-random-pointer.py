@@ -12,29 +12,30 @@ class Solution:
         curr = head
         copy_head = None
         copy_curr = None
-        node_map = dict()
+        node_dict = {}
 
-        while curr is not None:
-            if copy_curr is None:
-                copy_curr = Node(curr.val)
-                copy_head = copy_curr
+        while curr:
+            if not copy_head:
+                copy_head = Node(curr.val)
+                copy_curr = copy_head
             else:
                 copy_curr.next = Node(curr.val)
                 copy_curr = copy_curr.next
             
-            node_map[curr] = copy_curr
+            node_dict[curr] = copy_curr
             curr = curr.next
         
-        curr = head
-        copy_curr = copy_head
 
-        while curr is not None:
-            if curr.random is None:
+        copy_curr = copy_head
+        curr = head
+
+        while curr:
+            if not curr.random:
                 copy_curr.random = None
             else:
-                copy_curr.random = node_map[curr.random]
-            copy_curr = copy_curr.next
+                copy_curr.random = node_dict[curr.random]
+            
             curr = curr.next
-
-
+            copy_curr = copy_curr.next
+        
         return copy_head
