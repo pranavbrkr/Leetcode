@@ -8,16 +8,17 @@ class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         answer = []
 
-        def dfs(node, depth):
-            if not node:
-                return
-            
-            if len(answer) == depth:
-                answer.append([])
-            
-            answer[depth].append(node.val)
-            dfs(node.left, depth + 1)
-            dfs(node.right, depth + 1)
-    
-        dfs(root, 0)
+        q = deque([root])
+
+        while q:
+            level = []
+            for i in range(len(q)):
+                node = q.popleft()
+                if node:                
+                    level.append(node.val)
+                    q.append(node.left)
+                    q.append(node.right)
+            if level:
+                answer.append(level)
+        
         return answer
