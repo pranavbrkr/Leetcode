@@ -3,18 +3,19 @@ class Solution:
         answer = []
         nums.sort()
 
-        def backtrack(i, subset):
-            if i >= len(nums):
-                answer.append(subset.copy())
+        def backtrack(index, subarr):
+            if index >= len(nums):
+                answer.append(subarr.copy())
                 return
             
-            subset.append(nums[i])
-            backtrack(i + 1, subset)
+            subarr.append(nums[index])
+            backtrack(index + 1, subarr)
 
-            subset.pop()
-            while (i + 1) < len(nums) and nums[i + 1] == nums[i]:
-                i += 1
-            backtrack(i + 1, subset)
+            subarr.pop()
+            while (index + 1) < len(nums) and nums[index] == nums[index + 1]:
+                index += 1
+            backtrack(index + 1, subarr)
+
             return
         
         backtrack(0, [])
