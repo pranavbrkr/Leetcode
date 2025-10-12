@@ -3,19 +3,17 @@ class Solution:
         m = len(matrix)
         n = len(matrix[0])
 
-        left = 0
-        right = m * n - 1
+        l, r = 0, m * n - 1
 
-        while left <= right:
-            mid = (left + right) // 2
+        while l <= r:
+            mid = (l + r) // 2
+            mid_ele = matrix[mid // n][mid % n]
 
-            ele = matrix[mid // n][mid % n]
-
-            if target < ele:
-                right = mid - 1
-            elif target > ele:
-                left = mid + 1
-            else:
+            if mid_ele == target:
                 return True
+            elif mid_ele < target:
+                l = mid + 1
+            else:
+                r = mid - 1
         
         return False
