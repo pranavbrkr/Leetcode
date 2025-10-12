@@ -13,6 +13,7 @@ class Solution:
 
             subset.pop()
             backtrack(index + 1)
+
             return
         
         backtrack(0)
