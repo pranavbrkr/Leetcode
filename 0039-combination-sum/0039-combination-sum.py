@@ -2,18 +2,21 @@ class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         answer = []
 
-        def backtrack(index, subarray, total):
+        def backtrack(index, subarr, total):
             if total == target:
-                answer.append(subarray.copy())
+                answer.append(subarr.copy())
                 return
             
             if index >= len(candidates) or total > target:
                 return
             
-            subarray.append(candidates[index])
-            backtrack(index, subarray, total + candidates[index])
-            subarray.pop()
-            backtrack(index + 1, subarray, total)
+            subarr.append(candidates[index])
+            backtrack(index, subarr, total + candidates[index])
+
+            subarr.pop()
+            backtrack(index + 1, subarr, total)
+
+            return
         
         backtrack(0, [], 0)
         return answer
