@@ -7,23 +7,24 @@ class TimeMap:
         if key not in self.store:
             self.store[key] = []
         self.store[key].append([value, timestamp])
-        
+
+
     def get(self, key: str, timestamp: int) -> str:
-        res = ""
+        answer = ""
         values = self.store.get(key, [])
-
         l, r = 0, len(values) - 1
-        while l <= r:
-            m = (l + r) // 2
-            if values[m][1] <= timestamp:
-                res = values[m][0]
-                l = m + 1
-            else:
-                r = m - 1
-        
-        return res
 
+        while l <= r:
+            mid = (l + r) // 2
+            if values[mid][1] <= timestamp:
+                answer = values[mid][0]
+                l = mid + 1
+            else:
+                r = mid - 1
+        
+        return answer
             
+
 
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
