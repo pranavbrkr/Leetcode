@@ -3,23 +3,22 @@ class Solution:
         answer = []
         candidates.sort()
 
-        def backtrack(i, curr, total):
+        def backtrack(index, subarr, total):
             if total == target:
-                answer.append(curr.copy())
+                answer.append(subarr.copy())
                 return
             
-            if i >= len(candidates) or total > target:
+            if index >= len(candidates) or total > target:
                 return
             
-            # Include candidate[i]
-            curr.append(candidates[i])
-            backtrack(i + 1, curr, total + candidates[i])
+            subarr.append(candidates[index])
+            backtrack(index + 1, subarr, total + candidates[index])
 
-            # Skip candidate[i]
-            curr.pop()
-            while (i + 1) < len(candidates) and candidates[i] == candidates[i + 1]:
-                i += 1
-            backtrack(i + 1, curr, total)
+            subarr.pop()
+            while (index + 1) < len(candidates) and candidates[index] == candidates[index + 1]:
+                index += 1
+            backtrack(index + 1, subarr, total)
+
             return
         
         backtrack(0, [], 0)
