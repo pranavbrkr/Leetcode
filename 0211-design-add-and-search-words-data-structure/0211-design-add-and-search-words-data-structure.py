@@ -7,6 +7,7 @@ class WordDictionary:
 
     def __init__(self):
         self.root = TrieNode()
+        
 
     def addWord(self, word: str) -> None:
         curr = self.root
@@ -23,7 +24,6 @@ class WordDictionary:
 
             for i in range(j, len(word)):
                 c = word[i]
-
                 if c == '.':
                     for child in curr.children.values():
                         if dfs(i + 1, child):
@@ -33,7 +33,9 @@ class WordDictionary:
                     if c not in curr.children:
                         return False
                     curr = curr.children[c]
+            
             return curr.end_of_word
+        
         return dfs(0, self.root)
 
 
