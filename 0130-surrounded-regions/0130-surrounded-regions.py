@@ -3,29 +3,28 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        ROWS, COLS = len(board), len(board[0])
+        m, n = len(board), len(board[0])
 
         def capture(r, c):
-            if r < 0 or r == ROWS or c < 0 or c == COLS or board[r][c] != "O":
+            if r not in range(m) or c not in range(n) or board[r][c] != 'O':
                 return
-            board[r][c] = "T"
+            board[r][c] = 'T'
             capture(r + 1, c)
             capture(r - 1, c)
             capture(r, c + 1)
             capture(r, c - 1)
         
-        for i in range(ROWS):
-            for j in range(COLS):
-                if board[i][j] == "O" and (i in [0, ROWS - 1] or j in [0, COLS - 1]):
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == 'O' and (i in [0, m - 1] or j in [0, n - 1]):
                     capture(i, j)
         
-
-        for i in range(ROWS):
-            for j in range(COLS):
-                if board[i][j] == "O":
-                    board[i][j] = "X"
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == 'O':
+                    board[i][j] = 'X'
         
-        for i in range(ROWS):
-            for j in range(COLS):
-                if board[i][j] == "T":
-                    board[i][j] = "O"
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == 'T':
+                    board[i][j] = 'O'
