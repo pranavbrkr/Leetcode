@@ -15,5 +15,4 @@ class Solution:
                 ]
         
         answer.append(newInterval)
-
         return answer
