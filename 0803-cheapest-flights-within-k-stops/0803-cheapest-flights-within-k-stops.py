@@ -8,9 +8,8 @@ class Solution:
             for s, d, p in flights:
                 if prices[s] == float("inf"):
                     continue
-                if prices[s] + p < temp_prices[d]:
+                if (prices[s] + p) < temp_prices[d]:
                     temp_prices[d] = prices[s] + p
-            
             prices = temp_prices
         
         return -1 if prices[dst] == float("inf") else prices[dst]
