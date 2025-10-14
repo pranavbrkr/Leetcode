@@ -30,7 +30,4 @@ class Solution:
                 if indegree[nei] == 0:
                     queue.append(nei)
         
-        if len(answer) != len(indegree):
-            return ""
-
-        return "".join(answer)
+        return "" if len(answer) != len(indegree) else "".join(answer)
