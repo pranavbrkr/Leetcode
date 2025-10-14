@@ -7,7 +7,6 @@ class Solution:
             res = node
 
             while res != parent[res]:
-                # parent[res] = parent[parent[res]]
                 res = parent[res]
             return res
         
@@ -16,7 +15,7 @@ class Solution:
 
             if p1 == p2:
                 return 0
-
+            
             if rank[p1] > rank[p2]:
                 parent[p2] = p1
                 rank[p1] += rank[p2]
