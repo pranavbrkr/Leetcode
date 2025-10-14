@@ -14,14 +14,16 @@ class Solution:
                     q.append((i, j))
                     visited.add((i, j))
         
-        def addRoom(row, col):
-            if (row < 0 or row == m or col < 0 or col == n or (row, col) in visited or rooms[row][col] == -1):
+
+        def addRoom(r, c):
+            if r < 0 or r >= m or c < 0 or c >= n or (r, c) in visited or rooms[r][c] == -1:
                 return
-            q.append((row, col))
-            visited.add((row, col))
+            q.append((r, c))
+            visited.add((r, c))
         
         while q:
-            for i in range(len(q)):
+            q_len = len(q)
+            for _ in range(q_len):
                 r, c = q.popleft()
                 rooms[r][c] = dist
                 addRoom(r + 1, c)
