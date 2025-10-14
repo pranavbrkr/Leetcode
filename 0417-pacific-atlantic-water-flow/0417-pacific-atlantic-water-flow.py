@@ -18,7 +18,7 @@ class Solution:
         
         for i in range(n):
             dfs(0, i, pac, heights[0][i])
-            dfs(n - 1, i, atl, heights[m - 1][i])
+            dfs(m - 1, i, atl, heights[m - 1][i])
         
         answer = []
         for (r, c) in pac:
