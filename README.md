@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/pranavbrkr/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/pranavbrkr/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/pranavbrkr/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/pranavbrkr/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2035-count-sub-islands](https://github.com/pranavbrkr/Leetcode/tree/master/2035-count-sub-islands) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
@@ -745,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/pranavbrkr/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
 | [1784-minimum-initial-energy-to-finish-tasks](https://github.com/pranavbrkr/Leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/pranavbrkr/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/pranavbrkr/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/pranavbrkr/Leetcode/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Topological Sort
