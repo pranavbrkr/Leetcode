@@ -3,14 +3,14 @@ class Solution:
         if sum(nums) % 2:
             return False
         
+        target = sum(nums) // 2
         dp = set()
         dp.add(0)
-        target = sum(nums) // 2
-        
-        for i in range(len(nums) - 1, -1, -1):
+
+        for number in nums:
             next_dp = set()
             for t in dp:
-                next_dp.add(t + nums[i])
+                next_dp.add(t + number)
                 next_dp.add(t)
             dp = next_dp
         
