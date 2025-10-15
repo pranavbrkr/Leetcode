@@ -1,21 +1,19 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        n = len(prices)
-        dp = [[0 for _ in range(2)] for _ in range(n + 2)]
+        dp = {}
+        def dfs(i, buying):
+            if i >= len(prices):
+                return 0
+            if (i, buying) in dp:
+                return dp[(i, buying)]
+            
+            cooldown = dfs(i + 1, buying)
+            if buying:
+                buy = dfs(i + 1, not buying) - prices[i]
+                dp[(i, buying)] = max(buy, cooldown)
+            else:
+                sell = dfs(i + 2, not buying) + prices[i]
+                dp[(i, buying)] = max(sell, cooldown)
+            return dp[(i, buying)]
 
-        for index in range(n - 1, -1, -1):
-            for buy in range(2):
-                if buy:
-                    dp[index][buy] = max(
-                        -prices[index] + dp[index + 1][0],
-                        0 + dp[index + 1][1]
-                    )
-                else:
-                    dp[index][buy] = max(
-                        prices[index] + dp[index + 2][1],
-                        0 + dp[index + 1][0]
-                    )
-        
-        return dp[0][1]
-
-      
+        return dfs(0, True)
