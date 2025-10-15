@@ -1,23 +1,16 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
+        dp = [[0] * (amount + 1) for _ in range(len(coins))]
+
+        for i in range(amount + 1):
+            dp[0][i] = 1 if (i % coins[0] == 0) else 0
         
-        dp = [[-1] * (amount + 1) for _ in range(len(coins))]
-        def dfs(index, target):
-            if index == 0:
-                if target % coins[0] == 0:
-                    return 1
-                else:
-                    return 0
-            
-            if dp[index][target] != -1:
-                return dp[index][target]
-            
-            not_take = dfs(index - 1, target)
-            take = 0
-            if coins[index] <= target:
-                take = dfs(index, target - coins[index])
-            
-            dp[index][target] = take + not_take
-            return dp[index][target]
+        for i in range(1, len(coins)):
+            for j in range(amount + 1):
+                not_take = dp[i - 1][j]
+                take = 0
+                if coins[i] <= j:
+                    take = dp[i][j - coins[i]]
+                dp[i][j] = take + not_take
         
-        return dfs(len(coins) - 1, amount)
+        return dp[len(coins) - 1][amount ]
