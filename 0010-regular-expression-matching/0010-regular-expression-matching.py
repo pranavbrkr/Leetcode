@@ -1,25 +1,18 @@
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)
-        cache = {}
+        dp = [[False] * (n + 1) for _ in range(m + 1)]
+        dp[m][n] = True
 
-        def dfs(i, j):
-            if j == n:
-                return i == m
+        for i in range(m, -1, -1):
+            for j in range(n - 1, -1, -1):
+                match = i < m and (s[i] == p[j] or p[j] == '.')
 
-            if (i, j) in cache:
-                return cache[(i, j)]
-            
-            match = i < m and (s[i] == p[j] or p[j] == '.')
-            if (j + 1) < n  and p[j + 1] == '*':
-                cache[(i, j)] = (dfs(i, j + 2) or (match and dfs(i + 1, j)))
-                return cache[(i, j)]
-
-            if match:
-                cache[(i, j)] = dfs(i + 1, j + 1)
-                return cache[(i, j)]
-            
-            cache[(i, j)] = False
-            return cache[(i, j)]
+                if (j + 1) < n and p[j + 1] == '*':
+                    dp[i][j] = dp[i][j + 2]
+                    if match:
+                        dp[i][j] = dp[i + 1][j] or dp[i][j]
+                elif match:
+                    dp[i][j] = dp[i + 1][j + 1]
         
-        return dfs(0, 0)
+        return dp[0][0]
