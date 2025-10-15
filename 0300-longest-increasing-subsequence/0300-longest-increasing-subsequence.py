@@ -1,26 +1,18 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         n = len(nums)
-        dp = [1] * n
-        maxi = 1
-        last_index = 0
-        backtrack = [i for i in range(n)]
+        dp = [[-1] * (n + 1) for _ in range(n)]
+        def dfs(i, j):
+            if i == len(nums):
+                return 0
+            if dp[i][j + 1] != -1:
+                return dp[i][j + 1]
+            LIS = dfs(i + 1, j)
 
-        for index in range(n):
-            for prev in range(index):
-                if nums[prev] < nums[index] and (1 + dp[prev]) > dp[index]:
-                    dp[index] = 1 + dp[prev]
-                    backtrack[index] = prev
-            if dp[index] > maxi:
-                maxi = dp[index]
-                last_index = index
+            if  j == -1 or nums[j] < nums[i]:
+                LIS = max(LIS, 1 + dfs(i + 1, i))
 
-
-        lis = [nums[last_index]]
-
-        while backtrack[last_index] != last_index:
-            last_index = backtrack[last_index]
-            lis.insert(0, nums[last_index])
+            dp[i][j + 1] = LIS            
+            return LIS
         
-        print(lis)
-        return maxi
+        return dfs(0, -1)
