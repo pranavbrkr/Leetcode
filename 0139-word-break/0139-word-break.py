@@ -8,7 +8,7 @@ class Solution:
             for word in wordDict:
                 if dp[i]:
                     break
-                if (i + len(word)) <= n and s[ i: i + len(word)] == word:
+                if (i + len(word)) <= n and s[i : i + len(word)] == word:
                     dp[i] = dp[i + len(word)]
         
         return dp[0]
