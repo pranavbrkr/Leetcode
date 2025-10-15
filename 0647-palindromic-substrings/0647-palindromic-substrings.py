@@ -1,7 +1,7 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         n = len(s)
-        result = 0
+        answer = 0
 
         def countPalindromes(l, r):
             num_pal = 0
@@ -12,7 +12,7 @@ class Solution:
             return num_pal
         
         for i in range(n):
-            result += countPalindromes(i, i)
-            result += countPalindromes(i, i + 1)
-
-        return result
+            answer += countPalindromes(i, i)
+            answer += countPalindromes(i, i + 1)
+        
+        return answer
