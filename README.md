@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/pranavbrkr/Leetcode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/pranavbrkr/Leetcode/tree/master/0768-partition-labels) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -369,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/pranavbrkr/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/pranavbrkr/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/pranavbrkr/Leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1006-vowel-spellchecker](https://github.com/pranavbrkr/Leetcode/tree/master/1006-vowel-spellchecker) |
@@ -568,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/pranavbrkr/Leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
 | [0694-number-of-distinct-islands](https://github.com/pranavbrkr/Leetcode/tree/master/0694-number-of-distinct-islands) |
+| [0768-partition-labels](https://github.com/pranavbrkr/Leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/pranavbrkr/Leetcode/tree/master/0876-hand-of-straights) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/pranavbrkr/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -742,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/pranavbrkr/Leetcode/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/pranavbrkr/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/pranavbrkr/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0768-partition-labels](https://github.com/pranavbrkr/Leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/pranavbrkr/Leetcode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/pranavbrkr/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/pranavbrkr/Leetcode/tree/master/0890-lemonade-change) |
