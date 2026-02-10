@@ -1,13 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        groups = defaultdict(list)
+        anagrams = defaultdict(list)
 
-        for string in strs:
+        for s in strs:
             counter = [0] * 26
-
-            for s in string:
-                counter[ord(s) - ord('a')] += 1
             
-            groups[tuple(counter)].append(string)
+            for c in s:
+                counter[ord(c) - ord('a')] += 1
+            
+            anagrams[tuple(counter)].append(s)
         
-        return list(groups.values())
+        return list(anagrams.values())
