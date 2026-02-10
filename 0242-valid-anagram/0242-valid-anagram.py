@@ -3,14 +3,16 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        counter = [0] * 26
+        char_map = defaultdict(int)
 
-        for i, ch in enumerate(s):
-            counter[ord(ch) - ord('a')] += 1
-            counter[ord(t[i]) - ord('a')] -= 1
+        for c in s:
+            char_map[c] += 1
         
-        for cnt in counter:
-            if cnt != 0:
+        for c in t:
+            char_map[c] -= 1
+        
+        for k, v in char_map.items():
+            if v:
                 return False
         
         return True
