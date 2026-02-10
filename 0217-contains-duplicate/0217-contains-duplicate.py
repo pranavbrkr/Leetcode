@@ -5,5 +5,4 @@ class Solution:
             if number in arr_set:
                 return True
             arr_set.add(number)
-        
         return False
