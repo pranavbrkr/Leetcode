@@ -2,17 +2,17 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
-        
-        char_map = defaultdict(int)
+
+        counter = [0] * 26
 
         for c in s:
-            char_map[c] += 1
-        
+            counter[ord(c) - ord('a')] += 1
+
         for c in t:
-            char_map[c] -= 1
+            counter[ord(c) - ord('a')] -= 1
         
-        for k, v in char_map.items():
-            if v:
+        for v in counter:
+            if v != 0:
                 return False
         
         return True
